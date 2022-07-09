@@ -1,0 +1,1 @@
+Implementing PWM using timers is more efficient as it leaves the CPU free for other tasks. Can be done by just programming the TCCR and OCR registers of timers.

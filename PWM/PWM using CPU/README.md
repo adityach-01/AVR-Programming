@@ -1,0 +1,1 @@
+Implementing PWM using CPU uses delay using CPU for generating the waves at the output.
