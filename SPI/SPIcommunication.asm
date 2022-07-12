@@ -15,7 +15,7 @@
 .EQU temp r19   ; if zero data will be loaded in highb, if 1 data will be loaded in lowb, as the input data is 16 bit data
 
 main:
-    ddrb = 0b00000111  ; no/no/no/no/MISO/CS/MOSI/SCLK
+    ddra = 0b00000111  ; no/no/no/no/MISO/CS/MOSI/SCLK
     porta = 0xFF       ; setting CS bit to 1
     ldi temp, 1
 
